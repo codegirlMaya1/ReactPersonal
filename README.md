@@ -1,1 +1,1 @@
-# ReactPersonal
+# ReactPersonal GraphQL personal dashboard
