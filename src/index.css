@@ -1,0 +1,46 @@
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: yellow;
+  color: #ff8c00; /* Dark Orange */
+  margin-bottom: 20px;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #ff8c00 !important; /* Dark Orange */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff8c00; /* Dark Orange */
+}
+
+.btn-primary, .btn-warning, .btn-danger {
+  background-color: yellow;
+  border-color: yellow;
+  color: #ff8c00; /* Dark Orange */
+}
+
+.btn-primary:hover, .btn-warning:hover, .btn-danger:hover {
+  background-color: #ffdd44;
+  border-color: #ffdd44;
+}
+
+.list-group-item {
+  margin-bottom: 10px;
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container {
+  padding-top: 70px; /* Adjust this value based on the Navbar height */
+}
